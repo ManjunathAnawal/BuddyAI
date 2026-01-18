@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD25385C2F1CC98300E19630 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25385B2F1CC98300E19630 /* AppView.swift */; };
 		FD5C48B52F1CADF1004BFB2B /* BuddyAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C48B42F1CADF1004BFB2B /* BuddyAIApp.swift */; };
 		FD5C48B72F1CADF1004BFB2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C48B62F1CADF1004BFB2B /* ContentView.swift */; };
 		FD5C48B92F1CADF2004BFB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48B82F1CADF2004BFB2B /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD25385B2F1CC98300E19630 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		FD5C48B12F1CADF1004BFB2B /* BuddyAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5C48B42F1CADF1004BFB2B /* BuddyAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyAIApp.swift; sourceTree = "<group>"; };
 		FD5C48B62F1CADF1004BFB2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +24,10 @@
 		FD5C48BB2F1CADF2004BFB2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD5C48C22F1CB205004BFB2B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FD25385D2F1D11FD00E19630 /* AppView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppView; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FD5C48AE2F1CADF1004BFB2B /* Frameworks */ = {
@@ -74,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FD5C48C22F1CB205004BFB2B /* LaunchScreen.storyboard */,
+				FD25385B2F1CC98300E19630 /* AppView.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -81,6 +88,7 @@
 		FD5C48C52F1CB220004BFB2B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				FD25385D2F1D11FD00E19630 /* AppView */,
 				FD5C48C42F1CB215004BFB2B /* Root */,
 			);
 			path = Core;
@@ -101,6 +109,9 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				FD25385D2F1D11FD00E19630 /* AppView */,
+			);
 			name = BuddyAI;
 			productName = BuddyAI;
 			productReference = FD5C48B12F1CADF1004BFB2B /* BuddyAI.app */;
@@ -114,7 +125,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
-				LastUpgradeCheck = 1520;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					FD5C48B02F1CADF1004BFB2B = {
 						CreatedOnToolsVersion = 15.2;
@@ -159,6 +170,7 @@
 			files = (
 				FD5C48B72F1CADF1004BFB2B /* ContentView.swift in Sources */,
 				FD5C48B52F1CADF1004BFB2B /* BuddyAIApp.swift in Sources */,
+				FD25385C2F1CC98300E19630 /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +212,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W5M98JSTW4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -223,6 +236,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -263,6 +277,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W5M98JSTW4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -279,6 +294,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -292,7 +308,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BuddyAI/Preview Content\"";
-				DEVELOPMENT_TEAM = W5M98JSTW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -326,7 +341,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BuddyAI/Preview Content\"";
-				DEVELOPMENT_TEAM = W5M98JSTW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
