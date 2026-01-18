@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FD25385C2F1CC98300E19630 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25385B2F1CC98300E19630 /* AppView.swift */; };
 		FD5C48B52F1CADF1004BFB2B /* BuddyAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C48B42F1CADF1004BFB2B /* BuddyAIApp.swift */; };
 		FD5C48B72F1CADF1004BFB2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C48B62F1CADF1004BFB2B /* ContentView.swift */; };
 		FD5C48B92F1CADF2004BFB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48B82F1CADF2004BFB2B /* Assets.xcassets */; };
 		FD5C48BC2F1CADF2004BFB2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48BB2F1CADF2004BFB2B /* Preview Assets.xcassets */; };
-		FD5C48C32F1CB205004BFB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48C22F1CB205004BFB2B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD25385B2F1CC98300E19630 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		FD5C48B12F1CADF1004BFB2B /* BuddyAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD5C48B42F1CADF1004BFB2B /* BuddyAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddyAIApp.swift; sourceTree = "<group>"; };
 		FD5C48B62F1CADF1004BFB2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD5C48B82F1CADF2004BFB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD5C48BB2F1CADF2004BFB2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FD5C48C22F1CB205004BFB2B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FD25385D2F1D11FD00E19630 /* AppView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppView; sourceTree = "<group>"; };
+		FD2538602F1D16F000E19630 /* Root */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Root; sourceTree = "<group>"; };
+		FD2538612F1D172900E19630 /* TabBar */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TabBar; sourceTree = "<group>"; };
+		FD2538642F1D1BE700E19630 /* Explore */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Explore; sourceTree = "<group>"; };
+		FD2538672F1D1C0000E19630 /* Chats */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Chats; sourceTree = "<group>"; };
+		FD25386A2F1D1C1C00E19630 /* Profile */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Profile; sourceTree = "<group>"; };
+		FD25386D2F1D216600E19630 /* Welcome */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Welcome; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +78,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FD5C48C42F1CB215004BFB2B /* Root */ = {
-			isa = PBXGroup;
-			children = (
-				FD5C48C22F1CB205004BFB2B /* LaunchScreen.storyboard */,
-				FD25385B2F1CC98300E19630 /* AppView.swift */,
-			);
-			path = Root;
-			sourceTree = "<group>";
-		};
 		FD5C48C52F1CB220004BFB2B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				FD25386D2F1D216600E19630 /* Welcome */,
+				FD25386A2F1D1C1C00E19630 /* Profile */,
+				FD2538672F1D1C0000E19630 /* Chats */,
+				FD2538642F1D1BE700E19630 /* Explore */,
+				FD2538612F1D172900E19630 /* TabBar */,
+				FD2538602F1D16F000E19630 /* Root */,
 				FD25385D2F1D11FD00E19630 /* AppView */,
-				FD5C48C42F1CB215004BFB2B /* Root */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -111,6 +109,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				FD25385D2F1D11FD00E19630 /* AppView */,
+				FD2538602F1D16F000E19630 /* Root */,
+				FD2538612F1D172900E19630 /* TabBar */,
+				FD2538642F1D1BE700E19630 /* Explore */,
+				FD2538672F1D1C0000E19630 /* Chats */,
+				FD25386A2F1D1C1C00E19630 /* Profile */,
+				FD25386D2F1D216600E19630 /* Welcome */,
 			);
 			name = BuddyAI;
 			productName = BuddyAI;
@@ -155,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD5C48C32F1CB205004BFB2B /* LaunchScreen.storyboard in Resources */,
 				FD5C48BC2F1CADF2004BFB2B /* Preview Assets.xcassets in Resources */,
 				FD5C48B92F1CADF2004BFB2B /* Assets.xcassets in Resources */,
 			);
@@ -170,7 +173,6 @@
 			files = (
 				FD5C48B72F1CADF1004BFB2B /* ContentView.swift in Sources */,
 				FD5C48B52F1CADF1004BFB2B /* BuddyAIApp.swift in Sources */,
-				FD25385C2F1CC98300E19630 /* AppView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
