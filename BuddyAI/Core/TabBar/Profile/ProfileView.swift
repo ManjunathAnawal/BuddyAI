@@ -20,7 +20,7 @@ struct ProfileView: View {
                 }
         }
         .sheet(isPresented: $showSettings) {
-            Text("Settings")
+            SettingsView()
         }
     }
     
