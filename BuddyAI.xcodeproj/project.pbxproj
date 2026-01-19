@@ -24,8 +24,7 @@
 		FD2538602F1D16F000E19630 /* Root */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Root; sourceTree = "<group>"; };
 		FD2538612F1D172900E19630 /* TabBar */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TabBar; sourceTree = "<group>"; };
 		FD25386D2F1D216600E19630 /* Welcome */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Welcome; sourceTree = "<group>"; };
-		FD25387B2F1E772E00E19630 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
-		FD2538872F1E80B600E19630 /* Settings */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Settings; sourceTree = "<group>"; };
+		FD2538912F1E83DA00E19630 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +76,7 @@
 		FD5C48C52F1CB220004BFB2B /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FD2538872F1E80B600E19630 /* Settings */,
-				FD25387B2F1E772E00E19630 /* Extensions */,
+				FD2538912F1E83DA00E19630 /* Extensions */,
 				FD2538602F1D16F000E19630 /* Root */,
 				FD25385D2F1D11FD00E19630 /* AppView */,
 				FD2538612F1D172900E19630 /* TabBar */,
@@ -107,8 +105,7 @@
 				FD2538602F1D16F000E19630 /* Root */,
 				FD2538612F1D172900E19630 /* TabBar */,
 				FD25386D2F1D216600E19630 /* Welcome */,
-				FD25387B2F1E772E00E19630 /* Extensions */,
-				FD2538872F1E80B600E19630 /* Settings */,
+				FD2538912F1E83DA00E19630 /* Extensions */,
 			);
 			name = BuddyAI;
 			productName = BuddyAI;
