@@ -20,7 +20,7 @@ struct OnboardingColorView: View {
             edge: .bottom,
             alignment: .center,
             spacing: 16) {
-               ctaView
+               ctaView(selectedColor: selectedColor)
             }
     }
     
@@ -52,11 +52,11 @@ struct OnboardingColorView: View {
             }
         )
     }
-    var ctaView: some View {
+    private func ctaView(selectedColor: Color?) -> some View {
         ZStack {
             if let selectedColor {
                 NavigationLink {
-                    OnboardingCompletedView()
+                    OnboardingCompletedView(selectedColor: selectedColor)
                 } label: {
                     Text("Continue")
                         .callToActionButton()
