@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2538992F1E924300E19630 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FD2538982F1E924300E19630 /* SDWebImageSwiftUI */; };
 		FD5C48B52F1CADF1004BFB2B /* BuddyAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5C48B42F1CADF1004BFB2B /* BuddyAIApp.swift */; };
 		FD5C48B92F1CADF2004BFB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48B82F1CADF2004BFB2B /* Assets.xcassets */; };
 		FD5C48BC2F1CADF2004BFB2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD5C48BB2F1CADF2004BFB2B /* Preview Assets.xcassets */; };
@@ -25,6 +26,8 @@
 		FD2538612F1D172900E19630 /* TabBar */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TabBar; sourceTree = "<group>"; };
 		FD25386D2F1D216600E19630 /* Welcome */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Welcome; sourceTree = "<group>"; };
 		FD2538912F1E83DA00E19630 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
+		FD25389A2F1E92D300E19630 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
+		FD25389E2F1E949A00E19630 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2538992F1E924300E19630 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +80,8 @@
 		FD5C48C52F1CB220004BFB2B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				FD25389E2F1E949A00E19630 /* Utilities */,
+				FD25389A2F1E92D300E19630 /* Components */,
 				FD2538912F1E83DA00E19630 /* Extensions */,
 				FD2538602F1D16F000E19630 /* Root */,
 				FD25385D2F1D11FD00E19630 /* AppView */,
@@ -106,6 +112,8 @@
 				FD2538612F1D172900E19630 /* TabBar */,
 				FD25386D2F1D216600E19630 /* Welcome */,
 				FD2538912F1E83DA00E19630 /* Extensions */,
+				FD25389A2F1E92D300E19630 /* Components */,
+				FD25389E2F1E949A00E19630 /* Utilities */,
 			);
 			name = BuddyAI;
 			productName = BuddyAI;
@@ -136,6 +144,9 @@
 				Base,
 			);
 			mainGroup = FD5C48A82F1CADF1004BFB2B;
+			packageReferences = (
+				FD2538972F1E924300E19630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = FD5C48B22F1CADF1004BFB2B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -380,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD2538972F1E924300E19630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD2538982F1E924300E19630 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD2538972F1E924300E19630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD5C48A92F1CADF1004BFB2B /* Project object */;
 }
