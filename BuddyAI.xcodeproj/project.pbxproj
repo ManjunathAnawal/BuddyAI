@@ -27,6 +27,7 @@
 		FD2538912F1E83DA00E19630 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
 		FD25389A2F1E92D300E19630 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		FD25389E2F1E949A00E19630 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
+		FD2539682F1FFA2800E19630 /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 				FD2538912F1E83DA00E19630 /* Extensions */,
 				FD2538602F1D16F000E19630 /* Root */,
 				FD25385D2F1D11FD00E19630 /* AppView */,
+				FD2539682F1FFA2800E19630 /* Services */,
 				FD2538612F1D172900E19630 /* TabBar */,
 			);
 			path = Core;
@@ -111,6 +113,7 @@
 				FD2538912F1E83DA00E19630 /* Extensions */,
 				FD25389A2F1E92D300E19630 /* Components */,
 				FD25389E2F1E949A00E19630 /* Utilities */,
+				FD2539682F1FFA2800E19630 /* Services */,
 			);
 			name = BuddyAI;
 			productName = BuddyAI;
