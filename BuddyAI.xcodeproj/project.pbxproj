@@ -24,7 +24,6 @@
 		FD25385D2F1D11FD00E19630 /* AppView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AppView; sourceTree = "<group>"; };
 		FD2538602F1D16F000E19630 /* Root */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Root; sourceTree = "<group>"; };
 		FD2538612F1D172900E19630 /* TabBar */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TabBar; sourceTree = "<group>"; };
-		FD25386D2F1D216600E19630 /* Welcome */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Welcome; sourceTree = "<group>"; };
 		FD2538912F1E83DA00E19630 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
 		FD25389A2F1E92D300E19630 /* Components */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Components; sourceTree = "<group>"; };
 		FD25389E2F1E949A00E19630 /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
@@ -86,7 +85,6 @@
 				FD2538602F1D16F000E19630 /* Root */,
 				FD25385D2F1D11FD00E19630 /* AppView */,
 				FD2538612F1D172900E19630 /* TabBar */,
-				FD25386D2F1D216600E19630 /* Welcome */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -110,7 +108,6 @@
 				FD25385D2F1D11FD00E19630 /* AppView */,
 				FD2538602F1D16F000E19630 /* Root */,
 				FD2538612F1D172900E19630 /* TabBar */,
-				FD25386D2F1D216600E19630 /* Welcome */,
 				FD2538912F1E83DA00E19630 /* Extensions */,
 				FD25389A2F1E92D300E19630 /* Components */,
 				FD25389E2F1E949A00E19630 /* Utilities */,
