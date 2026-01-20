@@ -1,13 +1,13 @@
 //
-//  AvatarModel.swift
-//  AIChatCourse
+//  HeroCellView.swift
+//  BuddyAI
 //
-//  Created by Nick Sarno on 10/6/24.
+//  Created by Manjunath Anawal on 20/01/26.
 //
 
 import Foundation
 
-struct AvatarModel {
+struct AvatarModel: Hashable{
     
     let avatarId: String
     let name: String?
