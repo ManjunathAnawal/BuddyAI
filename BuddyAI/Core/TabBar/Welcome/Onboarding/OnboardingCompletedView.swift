@@ -25,22 +25,24 @@ struct OnboardingCompletedView: View {
                 .foregroundStyle(.secondary)
         }
     }
+    
     var ctaView: some View {
-        Button {
-            onFinishButtonPresed()
-        } label: {
-            ZStack {
-                if isCompletingProfileSetup {
-                    ProgressView()
-                        .tint(.white)
-                } else {
-                    Text("Finish")
-                }
+        ZStack {
+            if isCompletingProfileSetup {
+                ProgressView()
+                    .tint(.white)
+            } else {
+                Text("Finish")
             }
-            .callToActionButton()
+        }
+        .callToActionButton()
+        .anyButton(.press) {
+            onFinishButtonPresed()
+            
         }
         .disabled(isCompletingProfileSetup)
     }
+    
     var body: some View {
         VStack(spacing: 0) {
             textView
@@ -54,7 +56,6 @@ struct OnboardingCompletedView: View {
                 ctaView
             }
             .padding(24)
-
     }
     
     private func onFinishButtonPresed() {

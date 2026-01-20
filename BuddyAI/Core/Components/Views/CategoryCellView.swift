@@ -1,6 +1,6 @@
 //
 //  CategoryCellView.swift
-//  AIChatCourse
+//  BuddyAI
 //
 //  Created by Manjunath Anawal on 20/01/26.
 //
