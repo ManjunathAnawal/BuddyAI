@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct AppView: View {
-//    @AppStorage("showTabBarView") var showTabBar: Bool = false
     @State var appState: AppState = AppState()
     
     var body: some View {
